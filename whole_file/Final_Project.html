@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>City-Trip</title>
+<!-- CSS File For Social Media Icons-Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<!-- Some Styles -->
+
+    <style>
+
+      body{
+        padding: 0%;
+        margin: 0%;
+        background-color: darkgrey;
+      }
+      
+/* For Navigation Bar */
+
+      .navbar{
+        text-align: center;
+        background-color: darkblue;
+        height: 50px;
+        width: 100%;
+        padding-top: 20px;
+      }
+      
+      a.navbar-links{
+        padding: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      
+/* For Background Picture */
+      
+      .main-pic{
+        width: 100%;
+        height: 875px;
+        position: relative;
+        padding: 0%;
+        margin: 0%;
+        object-fit: cover;
+      }
+      
+/* For Heading Of The Cards Section */
+
+      .travel-diary{
+        width: 100%;
+        height: 75px;
+        font-size: 30px;
+        padding: 0%;
+        margin: 0%;
+        
+      }
+      
+      .heading-diary{
+        padding: 10px;
+        margin: 0%;
+        text-align: center;
+      }
+      
+/* For Cards Section */
+
+      div.image-card{
+        height: 375px;
+        border: 1px transparent black;
+        margin: 30px;
+        background-color: white;
+        text-align: center;
+        font-size: 30px;
+      }
+      
+      .city-name{
+        padding-bottom: 15px;
+      }
+      
+      img.image-in-card{
+        width: 100%;
+        height: 275px;
+      }
+      
+      .column {
+        float: left;
+        width: 30%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+      }
+      
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+/* For Footer Section */
+      
+      footer{
+        background-color: darkblue;
+        width: 100%;
+        height: 225px;
+      }
+      
+      .footer-div{
+        text-align: center;
+      }
+      
+      .heading-h3{
+        font-size: 25px;
+        color: white;
+        padding-top: 15px;
+      }
+      
+      .paragraph-rights{
+        font-size: 17px;
+        color: white;
+        padding: 5px;
+      }
+/* For Social Media Icons */
+      a{
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      
+      .fa {
+        padding: 10px;
+        font-size: 20px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+      }
+      
+      .fa:hover {
+        opacity: 0.7;
+      }
+      
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      
+      .fa-telegram {
+        background: #4995BE;
+        color: white;
+      }
+      
+      .fa-instagram {
+        background: #ff0066;
+        color: white;
+      }
+      
+      .fa-linkedin {
+        background: #0E76A8;
+        color: white;
+      }
+
+    </style>
+  </head>
+
+<!-- Body Part -->
+
+  <body>
+
+<!-- Navigation Bar -->
+
+    <div class="navbar">
+      <a href="#" class="navbar-links">Home</a>
+      <a href="#" class="navbar-links">About</a>
+      <a href="#" class="navbar-links">News</a>
+    </div>
+
+<!-- Background Picture Section -->
+    <div>
+      <img src="images/main_picture.jpg" alt="Main Picture" class="main-pic"/>
+    </div>
+
+<!-- Headings Of Cards Section -->
+
+    <div class="travel-diary">
+      <h1 class="heading-diary">My Travel Diary</h1>
+    </div>
+    
+<!-- Cards Section -->
+
+    <div class="row">
+      <div class="image-card column first">
+        <img src="images/new_york.jpg" alt="New York" class="image-in-card">
+        <p class="city-name">New York, USA</p>
+      </div>
+      
+      <div class="image-card column second">
+        <img src="images/delhi.jpg" alt="Delhi" class="image-in-card">
+        <p class="city-name">Delhi, India</p>
+      </div>
+      
+      <div class="image-card column third">
+        <img src="images/berlin.jpg" alt="Berlin" class="image-in-card">
+        <p class="city-name">Berlin, Germany</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="image-card column fourth">
+        <img src="images/paris.jpg" alt="Paris" class="image-in-card">
+        <p class="city-name">Paris, France</p>
+      </div>
+      
+      <div class="image-card column fivth">
+        <img src="images/ottawa.jpg" alt="Ottawa" class="image-in-card">
+        <p class="city-name">Ottawa, Canada</p>
+      </div>
+      
+      <div class="image-card column sixth">
+        <img src="images/qatar.jpg" alt="Qatar" class="image-in-card">
+        <p class="city-name">Qatar, Qatar</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="image-card column seventh">
+        <img src="images/dubai.jpg" alt="Dubai" class="image-in-card">
+        <p class="city-name">Dubai, UAE</p>
+      </div>
+      
+      <div class="image-card column eighth">
+        <img src="images/tashkent.jpg" alt="Tashkent" class="image-in-card">
+        <p class="city-name">Tashkent, Uzbekistan</p>
+      </div>
+      
+      <div class="image-card column nineth">
+        <img src="images/moscow.jpg" alt="Moscow" class="image-in-card">
+        <p class="city-name">Moscow, Russia</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="image-card column tenth">
+        <img src="images/Washington.jpg" alt="Washington" class="image-in-card">
+        <p class="city-name">Washington, USA</p>
+      </div>
+      
+      <div class="image-card column eleventh">
+        <img src="images/beijing.jpg" alt="Beijing" class="image-in-card">
+        <p class="city-name">Beijing, China</p>
+      </div>
+      
+      <div class="image-card column twelvth">
+        <img src="images/brooklyn.jpg" alt="Brooklyn" class="image-in-card">
+        <p class="city-name">Brooklyn, USA</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="image-card column thirteenth">
+        <img src="images/london.jpg" alt="London" class="image-in-card">
+        <p class="city-name">London, UK</p>
+      </div>
+      
+      <div class="image-card column fourteenth">
+        <img src="images/los_angeles.jpg" alt="Los-Angeles" class="image-in-card">
+        <p class="city-name">Los-Angeles, USA</p>
+      </div>
+      
+      <div class="image-card column fivteenth">
+        <img src="images/tokyo.jpg" alt="Tokyo" class="image-in-card">
+        <p class="city-name">Tokyo, Japan</p>
+      </div>
+    </div>
+
+<!-- Footer Section -->
+
+    <footer>
+      <div class="footer-div">
+        <h3 class="heading-h3">This is My Footer</h3>
+<!-- Social Media Icons -->
+        <a href="https://www.facebook.com/abdulahad.rizakulov" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/abdulahadr_282/" class="fa fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/abdulakhad-rizakulov-181a50210/" class="fa fa-linkedin"></a>
+        <a href="https://t.me/SpeedyM_282" class="fa fa-telegram"></a>
+
+        <p class="paragraph-rights">All rights reserved</p>
+        <p class="paragraph-rights">&copy;Copyright 2021</p>
+      </div>
+    </footer>
+
+<!-- The End -->
+
+  </body>
+</html>
